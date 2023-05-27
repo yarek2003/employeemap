@@ -50,7 +50,6 @@ public class EmployeeService {
         return employees.get(employee.getKey());
     }
 
-
     public Collection<Employee> getAll() {
         return Collections.unmodifiableCollection(employees.values());
     }
